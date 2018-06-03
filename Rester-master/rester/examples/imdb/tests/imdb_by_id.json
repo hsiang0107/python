@@ -1,0 +1,48 @@
+{
+  "name":"IMDB API test",
+  "globals":{
+    "variables":{
+      "baseApiUrl":"http://www.omdbapi.com"
+    }
+  },
+  "testSteps":[
+    {
+      "name":"Get Movie By Title",
+      "apiUrl":"{baseApiUrl}/?t=Frozen&y=&plot=short&r=json",
+      "method":"get",
+      "asserts":{
+        "headers":{
+          "status":200,
+          "Content-Type":"application/json; charset=utf-8"
+        },
+        "payload":{
+          "Title":"Frozen",
+          "Year":"2013",
+          "Actors":"Kristen Bell, Idina Menzel, Jonathan Groff, Josh Gad"
+        }
+      },
+      "postAsserts":{
+        "id":"imdbID"
+      }
+    },
+
+
+    {
+      "name":"Get Movie By ID",
+      "apiUrl":"{baseApiUrl}/?i={id}&r=json",
+      "method":"get",
+      "asserts":{
+        "headers":{
+          "status":200,
+          "Content-Type":"application/json; charset=utf-8"
+        },
+        "payload":{
+          "Title":"Frozen-2",
+          "Year":"2013",
+          "Actors":"Kristen Bell, Idina Menzel, Jonathan Groff, Josh Gad"
+
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+   "test_cases":[
+     "tests/imdb_by_title.json",
+     "tests/imdb_by_id.json",
+     "tests/imdb_param.json"
+   ]
+}

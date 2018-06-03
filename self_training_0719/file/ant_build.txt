@@ -1,0 +1,79 @@
+D:\audatex\prj\auda_express\testing\AudaAutomator>ant build
+Buildfile: D:\audatex\prj\auda_express\testing\AudaAutomator\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.0.1
+ [checkenv] Installed at C:\Program Files (x86)\Android\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 21.1.2
+     [echo] Resolving Build Target for AudaAutomator...
+[getuitarget] Project Target:   Android 5.0.1
+[getuitarget] API level:        21
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\audatex\prj\auda_express\testing\AudaAutomator\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\audatex\prj\auda_express\testing\AudaAutomator\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\audatex\prj\auda_express\testing\AudaAutomator\bin\
+classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\audatex\prj\auda_express\testing\AudaAutomator\bin\AudaAutomator.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+
+D:\audatex\prj\auda_express\testing\AudaAutomator>ant build
+Buildfile: D:\audatex\prj\auda_express\testing\AudaAutomator\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.0.1
+ [checkenv] Installed at C:\Program Files (x86)\Android\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 21.1.2
+     [echo] Resolving Build Target for AudaAutomator...
+[getuitarget] Project Target:   Android 5.0.1
+[getuitarget] API level:        21
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\audatex\prj\auda_express\testing\AudaAutomator\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\audatex\prj\auda_express\testing\AudaAutomator\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\audatex\prj\auda_express\testing\AudaAutomator\bin\
+classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\audatex\prj\auda_express\testing\AudaAutomator\bin\AudaAutomator.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
